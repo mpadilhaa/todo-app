@@ -23,13 +23,13 @@
 
 ## Layout
 
-![App](./public/imagereadme.png)
+![App](./public/Frametodo.jpg)
 
 <br/>
 
 ## Demonstração
 
-[Acesse o app](https://roomhomepagemp.netlify.app/)
+[Acesse o app](https://todo-app-repository.netlify.app/)
 
 <br/>
 
@@ -47,7 +47,7 @@
 $git clone linkrepo
 
 #Acessar a pasta do projeto em seu terminal
-$cd room-homepage
+$cd todo-app
 
 #Instalar dependencias
 $npm install

@@ -39,6 +39,7 @@ button {
 
 h2 {
   font-size: clamp(1.375rem, 1.284rem + 0.3883vw, 1.75rem);
+  cursor: pointer;
 }
 h5 {
   cursor: pointer;
