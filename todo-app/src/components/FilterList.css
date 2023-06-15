@@ -1,0 +1,18 @@
+.filter-list {
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 20px;
+}
+
+.list-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.list-btn button {
+  background-color: transparent;
+  border: none;
+}

@@ -1,0 +1,24 @@
+.input-list {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+  padding: 0 45px;
+}
+
+.input-list::placeholder {
+  font-weight: bold;
+}
+
+.light-input {
+  color: var(--very-dark-blue);
+  background-color: var(--very-light-gray);
+}
+
+.dark-input {
+  color: var(--light-grayish-blue);
+  background-color: var(--very-dark-grayish-blue-light);
+}
