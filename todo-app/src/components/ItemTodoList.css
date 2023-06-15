@@ -10,6 +10,12 @@
   display: flex;
 }
 
+.checkbox-text p {
+  font-size: clamp(0.875rem, 0.8143rem + 0.2589vw, 1.125rem);
+  width: clamp(15.625rem, 14.108rem + 6.4725vw, 21.875rem);
+  word-wrap: break-word;
+}
+
 .list-item {
   padding: 0 10px;
   border-bottom: 1px solid var(--dark-grayish-blue);

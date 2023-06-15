@@ -84,10 +84,10 @@ function App() {
       <div className="todo-list">
         <div className="todo-text">
           <h2>TODO</h2>
-          <span onClick={handleColorTheme}>
+          <h2 onClick={handleColorTheme}>
             {!lightAndDarkColor && <BsFillMoonFill />}
             {lightAndDarkColor && <BsFillSunFill />}
-          </span>
+          </h2>
         </div>
         <div className="form-list">
           <InputList

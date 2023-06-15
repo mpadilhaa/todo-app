@@ -12,7 +12,23 @@
   gap: 10px;
 }
 
+.light-list button {
+  color: var(--very-dark-grayish-blue);
+}
+
+.dark-list button {
+  color: var(--light-grayish-blue);
+}
+
 .list-btn button {
   background-color: transparent;
   border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.dark-list .active-filter,
+.light-list .active-filter {
+  color: var(--bright-blue);
 }
