@@ -75,12 +75,8 @@ function App() {
 
   return (
     <div className={`App ${lightAndDarkColor ? "dark" : "light"}`}>
-      {lightAndDarkColor && (
-        <img src="../src/assets/bg-desktop-dark.jpg" alt="" />
-      )}
-      {!lightAndDarkColor && (
-        <img src="../src/assets/bg-desktop-light.jpg" alt="" />
-      )}
+      {lightAndDarkColor && <img src="/bg-desktop-dark.jpg" alt="" />}
+      {!lightAndDarkColor && <img src="/bg-desktop-light.jpg" alt="" />}
       <div className="todo-list">
         <div className="todo-text">
           <h2>TODO</h2>
